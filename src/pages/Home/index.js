@@ -1,5 +1,6 @@
 import Header from '../../components/Header'
 import Slider  from '../../components/Slider'
+import Card from '../../components/Card'
 import React from 'react'
 import './index.less'
 export default function Home() {
@@ -12,7 +13,10 @@ export default function Home() {
 
             <div className="body">
                 <div className="content">
-                    内容
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
                 </div>
                 <div className="slider">
                     <Slider/>
